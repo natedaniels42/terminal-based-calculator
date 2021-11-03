@@ -27,7 +27,12 @@ const calc = {
     exponent(a,b) {
         const num1 = Number(a);
         const num2 = Number(b);
-        console.log(a ** b);
+        console.log(num1 ** num2);
+    },
+    root(a,b) {
+        const num1 = Number(a);
+        const num2 = Number(b);
+        console.log(num1 ** (1 / num2));
     }
 }
 
