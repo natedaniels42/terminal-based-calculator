@@ -1,12 +1,4 @@
 const calc = {
-    addSign: '+',
-    subtractSign: '-',
-    multiplySign: '*',
-    divideSign: '/',
-    remainderSign: '%',
-    exponentSign: '**',
-    rootSign: '**',
-
     add(a,b) {
         const num1 = Number(a);
         const num2 = Number(b);
